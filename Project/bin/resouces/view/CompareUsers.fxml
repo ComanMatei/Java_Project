@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #6c61fa;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CompareUsersController">
+   <children>
+      <ListView fx:id="sortedList" layoutX="311.0" layoutY="71.0" prefHeight="273.0" prefWidth="268.0" />
+      <ListView fx:id="unsortedList" layoutX="21.0" layoutY="71.0" prefHeight="273.0" prefWidth="268.0" />
+      <Label layoutX="93.0" layoutY="34.0" text="Unsorted List" textFill="#5d264d">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="395.0" layoutY="34.0" text="Sorted List" textFill="#5d264d">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_barberSelect" layoutX="219.0" layoutY="355.0" mnemonicParsing="false" onAction="#toBarberSelect" prefHeight="31.0" prefWidth="162.0" style="-fx-background-color: #5d264d;" text="To barber select" textFill="#6c61fa">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

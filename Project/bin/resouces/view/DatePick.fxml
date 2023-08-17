@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HourController">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #6c61fa;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="119.0" layoutY="59.0" prefHeight="30.0" prefWidth="363.0" text="Select hour, when you want a haircut!" textFill="#5d264d">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="viewBarber" layoutX="252.0" layoutY="188.0" textFill="#5d264d">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Label>
+            <Button fx:id="button_Apply" layoutX="59.0" layoutY="309.0" mnemonicParsing="false" onAction="#finishAppointment" prefHeight="31.0" prefWidth="120.0" style="-fx-background-color: #5d264d;" text="Apply" textFill="#6c61fa">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <ComboBox fx:id="hourSelect" blendMode="LIGHTEN" layoutX="51.0" layoutY="144.0" onAction="#getHour" prefHeight="31.0" prefWidth="137.0" promptText="Select hour" />
+            <Label fx:id="viewInfo" layoutX="237.0" layoutY="149.0" textFill="#5d264d">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="viewAppointment" layoutX="253.0" layoutY="231.0" textFill="#5d264d">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

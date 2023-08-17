@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SignUpController">
+   <center>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #6c61fa;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="105.0" layoutY="151.0" prefHeight="30.0" prefWidth="106.0" text="Last Name" textFill="#5d264d">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_singup" layoutX="273.0" layoutY="309.0" mnemonicParsing="false" onAction="#SignUpAction" prefHeight="25.0" prefWidth="90.0" style="-fx-background-color: #5d264d;" text="Sign Up" textFill="#6c61fa" />
+            <Label layoutX="105.0" layoutY="101.0" prefHeight="30.0" prefWidth="106.0" text="First Name" textFill="#5d264d">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="105.0" layoutY="198.0" prefHeight="30.0" prefWidth="106.0" text="Username" textFill="#5d264d">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="105.0" layoutY="250.0" prefHeight="30.0" prefWidth="106.0" text="Password" textFill="#5d264d">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_firstname" layoutX="251.0" layoutY="103.0" promptText="First Name" />
+            <TextField fx:id="tf_lastname" layoutX="251.0" layoutY="153.0" promptText="Last Name" />
+            <TextField fx:id="tf_username" layoutX="251.0" layoutY="200.0" promptText="Username" />
+            <PasswordField fx:id="tf_password" layoutX="251.0" layoutY="249.0" promptText="Password" />
+            <Button fx:id="button_LogIn" layoutX="354.0" layoutY="356.0" mnemonicParsing="false" onAction="#toLogIn" prefHeight="25.0" prefWidth="90.0" style="-fx-background-color: #5d264d;" text="Log In" textFill="#6c61fa" />
+            <Label layoutX="148.0" layoutY="356.0" prefHeight="30.0" prefWidth="206.0" text="Already a member?" textFill="#5d264d">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="122.0" layoutY="42.0" prefHeight="30.0" prefWidth="392.0" text="Please enter your personal information!" textFill="#5d264d">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="127.0" fitWidth="126.0" layoutX="-8.0" layoutY="-16.0">
+               <image>
+                  <Image url="@../../../../Images%20project/logohair.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lb_errors" layoutX="191.0" layoutY="72.0" textFill="#f40000">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane blendMode="MULTIPLY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #6c61fa;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.BarberController">
+   <children>
+      <Label layoutX="77.0" layoutY="162.0" text="Lacatus Catalin" textFill="#5d264d">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label layoutX="382.0" layoutY="162.0" text="Popescu Andrei" textFill="#5d264d">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <ComboBox fx:id="barberSelect" blendMode="LIGHTEN" layoutX="77.0" layoutY="236.0" onAction="#getBarber" prefWidth="150.0" promptText="Select barber" />
+      <Button fx:id="button_hour" layoutX="232.0" layoutY="310.0" mnemonicParsing="false" onAction="#toHour" prefHeight="31.0" prefWidth="111.0" style="-fx-background-color: #5d264d;" text="Go to hour" textFill="#6c61fa">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Label layoutX="236.0" layoutY="162.0" text="Furtea Claudiu" textFill="#5d264d">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <DatePicker fx:id="dateSelect" blendMode="LIGHTEN" layoutX="343.0" layoutY="236.0" onAction="#showDate" prefHeight="31.0" prefWidth="150.0" promptText="Select date" />
+      <Label fx:id="lb_errors" layoutX="287.0" layoutY="200.0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <ImageView fitHeight="153.0" fitWidth="134.0" layoutX="221.0" layoutY="9.0">
+         <image>
+            <Image url="@../../../../Images%20project/Furtea%20Claudiu.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="153.0" fitWidth="111.0" layoutX="382.0" layoutY="9.0">
+         <image>
+            <Image url="@../../../../Images%20project/Voinescu%20Denis.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="153.0" fitWidth="141.0" layoutX="60.0" layoutY="9.0">
+         <image>
+            <Image url="@../../../../Images%20project/Lacatus%20Catalin.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="button_Compare" layoutX="233.0" layoutY="355.0" mnemonicParsing="false" onAction="#toCompare" prefHeight="31.0" prefWidth="111.0" style="-fx-background-color: #5d264d;" text="Compare" textFill="#6c61fa">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

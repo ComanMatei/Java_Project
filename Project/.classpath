@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Calculatorul Meu/Downloads/mysql-connector-j-8.0.33 (1).jar"/>
+	<classpathentry kind="lib" path="C:/Users/Calculatorul Meu/Desktop/chestii jar/commonj.sdo_2.1.1.v201112051852.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Calculatorul Meu/Desktop/chestii jar/eclipselink.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Calculatorul Meu/Desktop/chestii jar/javax.mail_1.4.0.v201005080615.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Calculatorul Meu/Desktop/chestii jar/javax.persistence.source_2.1.1.v201509150925.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Calculatorul Meu/Desktop/chestii jar/javax.persistence_2.1.1.v201509150925.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Calculatorul Meu/Desktop/chestii jar/javax.validation_1.1.0.v201304101302.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Calculatorul Meu/Desktop/chestii jar/javax.xml.bind_2.2.12.v201410011542.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Calculatorul Meu/Desktop/chestii jar/jaxb-core_2.2.11.v201407311112.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Calculatorul Meu/Desktop/chestii jar/jaxb-xjc_2.2.11.v201407311112.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Calculatorul Meu/Desktop/chestii jar/org.eclipse.persistence.jpa.modelgen.source_2.6.5.v20170607-b3d05bd.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Calculatorul Meu/Desktop/chestii jar/org.eclipse.persistence.jpa.modelgen_2.6.5.v20170607-b3d05bd.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Calculatorul Meu/Desktop/chestii jar/org.eclipse.persistence.jpars.source_2.6.5.v20170607-b3d05bd.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Calculatorul Meu/Desktop/chestii jar/org.eclipse.persistence.jpars_2.6.5.v20170607-b3d05bd.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Calculatorul Meu/Desktop/chestii jar/org.glassfish.javax.json_1.0.4.v201311181159.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/eclipselink">
+		<attributes>
+			<attribute name="owner.project.facets" value="jpt.jpa"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
