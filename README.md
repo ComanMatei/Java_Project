@@ -8,6 +8,7 @@ This program can be used to make appointments to various hairstylers.
 
   ✔️ The first step is to create an account to be able to access the application. ✔️
 
+![destiny-game](https://github.com/ComanMatei/Java_Project/assets/125188207/8c6439ba-257e-4c9f-af79-e6aa88482196)
 
   ✔️  Once entered the client's information will be recorded in a database.✔️
 
