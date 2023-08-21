@@ -7,16 +7,18 @@ In this project I used Java, JavaFX, DataBase and SceneBuilder.
   
   - SceneBulder is an application to styling the Front-end of my application and it's translated through HTML so that it can also be seen in the main Java program.
 
-This program can be used to make appointments to various hairstylers.
+This program can be used to make appointments to various barbers.
 
       ✔️ The first step is to create an account to be able to access the application. 
 
-      ✔️ Once entered the client's information will be recorded in a database.
+      ✔️ Once entered the client's information will be recorded in a database(id, firstname, lastname, username, password).
 
-      ✔️ The second step is to log in, then you can choose you can choose the appointment depending on the hairdresser you choose. 
+      ✔️ The second step is to log in, then you can choose the appointment according to the barber.
 
-      ✔️  If the hairdresser is available you can choose the day and time of the appointment. 
+      ✔️ If the hairdresser is available you can choose the day and time of the appointment. 
 
-      ✔️  If one of the hairdressers is not available, you can choose someone else in his place. 
+      ✔️ The table for hairdressers has 2 fields (id, name)
 
-      ✔️   All these will be entered in the database. 
+      ✔️ If one of the barbers is not available, you can choose someone else in his place. 
+
+      ✔️ All these will be entered in the same table in database, for appointment(idbarber, iduser, date, hour). 
