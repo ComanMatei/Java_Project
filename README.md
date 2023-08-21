@@ -9,14 +9,14 @@ In this project I used Java, JavaFX, DataBase and SceneBuilder.
 
 This program can be used to make appointments to various hairstylers.
 
-      ✔️ The first step is to create an account to be able to access the application. ✔️
+      ✔️ The first step is to create an account to be able to access the application. 
 
-      ✔️ Once entered the client's information will be recorded in a database.✔️
+      ✔️ Once entered the client's information will be recorded in a database.
 
-      ✔️ The second step is to log in, then you can choose you can choose the appointment depending on the hairdresser you choose. ✔️
+      ✔️ The second step is to log in, then you can choose you can choose the appointment depending on the hairdresser you choose. 
 
-      ✔️  If the hairdresser is available you can choose the day and time of the appointment. ✔️
+      ✔️  If the hairdresser is available you can choose the day and time of the appointment. 
 
-      ✔️  If one of the hairdressers is not available, you can choose someone else in his place. ✔️
+      ✔️  If one of the hairdressers is not available, you can choose someone else in his place. 
 
-      ✔️   All these will be entered in the database. ✔️
+      ✔️   All these will be entered in the database. 
